@@ -1,12 +1,20 @@
-import random
+# Juego de Piedra, Papel o Tijera
+# Desarrollado por Oscar como ejercicio de práctica
+
+#Importar módulos
+import random   
 import time
 
+#Declaración de variables y diccionario
 opciones = ['piedra', 'papel', 'tijera']
 mapa = {"1": "piedra", "2":"papel","3":"tijera"}
 puntos_usuario = 0
 puntos_compu = 0
 
+
+
 while True:
+#Solicitar la elección del jugador   
    print("\nSelecciona un número:")
    print(" (1) 🪨 Piedra")
    print(" (2) 📄 Papel")
@@ -19,11 +27,13 @@ while True:
      continue
    if usuario == '4':
       break 
-   
-   print("\nLa computadora está pensando...")
-   time.sleep(1)  # simula que está "pensando" para dar suspenso
 
+   #Generar una elección aleatoria para la computadora
+   print("\nLa computadora está pensando...")
+   time.sleep(1)  #Simula que está "pensando" para dar suspenso
    computadora = random.choice(opciones)
+
+   #Comparar resultados y declarar al ganador 
    usuario = mapa.get(usuario)
    resultado = ""
    if(usuario == 'piedra' and computadora == 'tijera') or \
@@ -36,10 +46,8 @@ while True:
    else:
      resultado = 'Perdiste'
      puntos_compu += 1
-
+   
+   #Imprimir en pantalla resultado y mencionar al ganador. 
    print(f"\n🧑 Tú elegiste: {usuario} \n💻 La computadora eligió: {computadora}")
    print(f"\n🎯 Resultado: {resultado}")
    print (f"\nTus Puntos: {puntos_usuario}\nPuntos de la computadora: {puntos_compu}")   
-
-   
-
