@@ -1,6 +1,6 @@
 # 🐍 Repositorio de Proyectos en Python
 
-Este repositorio contiene mis primeros ejercicios y proyectos en Python, desarrollados como parte de mi proceso de aprendizaje autodidacta. Mi enfoque actual está en dominar fundamentos básicos, crear interfaces gráficas simples y trabajar con lógica de validación de datos.
+Este repositorio contiene mis primeros ejercicios y proyectos en Python, desarrollados como parte de mi proceso de aprendizaje autodidacta. Mi enfoque actual está en dominar fundamentos de Python, crear interfaces gráficas y trabajar con lógica de validación de datos.
 
 ## 🧠 Proyectos incluidos
 
@@ -14,9 +14,8 @@ Este repositorio contiene mis primeros ejercicios y proyectos en Python, desarro
 
 ## 📅 Próximos proyectos
 
-- Calculadora de propinas
-- Validador de números telefónicos
-- Contador de vocales
+- Registro de gastos personales
+- Agenda telefónica
 - Sistema de generación de tickets técnicos
 
 ## 👨‍💻 Sobre mí
